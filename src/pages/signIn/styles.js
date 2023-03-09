@@ -4,6 +4,7 @@ export const Container = styled.SafeAreaView`
   flex: 1;
   align-items: center;
   justify-content: center;
+  background: #eff3f6;
 `;
 export const Logo = styled.Image`
   width: 120px;

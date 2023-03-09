@@ -3,7 +3,13 @@ import {View, Text, Image, ActivityIndicator} from 'react-native';
 
 export default function Loading() {
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+    <View
+      style={{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#eff3f6',
+      }}>
       <Image
         source={require('../../assets/logo.png')}
         style={{width: 150, height: 150, marginBottom: 24}}

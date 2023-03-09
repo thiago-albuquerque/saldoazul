@@ -45,7 +45,9 @@ export default function ListMovements({data, deleteItem}) {
       </DescriptionContainer>
 
       <ValueMovementsContainer>
-        <ValueMovements numberOfLines={1}>{formatedValue}</ValueMovements>
+        <ValueMovements numberOfLines={1} color={data.type}>
+          {formatedValue}
+        </ValueMovements>
         <DeleteButton onPress={deleteReceive}>
           <Feather name="trash-2" size={20} color="#D44816" />
         </DeleteButton>
